@@ -1,8 +1,9 @@
 from django.contrib import admin
-from .models import Categort,Product,UserProfile,Order,OrderItem
+# Fixed spelling from Categort to Category
+from .models import Category, Product, UserProfile, Order, OrderItem
 
 # Register your models here.
-admin.site.register(Categort)
+admin.site.register(Category)
 admin.site.register(Product)
 admin.site.register(UserProfile)
 admin.site.register(Order)
